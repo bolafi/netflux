@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from "react-router-dom"
 
 const Hero = () => {
   return (
@@ -13,12 +14,12 @@ const Hero = () => {
             بي سي 2 في 13 سبتمبر 2013 لمدة 6 حلقات
           </p>
           <p className="buttons">
-            <a href="#" className="button is-primary">
+            <NavLink to="#" className="button is-primary">
               شاهد الفيلم
-            </a>
-            <a href="#" className="button">
+            </NavLink>
+            <NavLink to="#" className="button">
               إقرأ المزيد
-            </a>
+            </NavLink>
           </p>
         </div>
       </div>
